@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Logs / telemetry
+*.ulg
+*.log
+*.bag
+
+# PX4 (if cloned inside this repo later)
+PX4-Autopilot/build/
+PX4-Autopilot/log/
+PX4-Autopilot/Tools/simulation/log/
+
+# Gazebo / sim caches
+~/.gazebo/
